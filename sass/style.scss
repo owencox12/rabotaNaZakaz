@@ -1,0 +1,20 @@
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+body.lock {
+    overflow: hidden
+}
+
+
+@import 'blocks/main';
+@import 'blocks/button';
+@import 'blocks/about';
+@import 'blocks/jobs';
+@import 'blocks/economy';
+@import 'blocks/return';
+@import 'blocks/footer';
+@import 'blocks/overlay';
+@import 'blocks/overlayReg';
+@import 'blocks/arrow';
+@import 'blocks/media';

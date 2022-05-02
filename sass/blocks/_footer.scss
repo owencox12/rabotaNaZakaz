@@ -1,0 +1,81 @@
+.footer {
+    min-height: 250px;
+    background: #3C4852;
+    position: relative;
+    &__wrapper {
+        display: flex;
+        padding-top: 130px;
+        align-items: center;
+        position: relative;
+        z-index: 1000;
+    }
+    &__item {
+        &_text {
+            margin-left: 61px;
+            font-family: 'Panton';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0.05em;
+            color: rgba(255,255,255,.4)
+        }
+        &_buttons {
+            display: flex;
+            margin-left: 61px;
+            align-items: center;
+            &_link {
+                a {
+                    font-family: 'Panton';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 22px;
+                    letter-spacing: 0.05em;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                    img {
+                        margin-right: 13px;
+                    }
+                }
+            }
+            &_button {
+                margin-left: 20px;
+            }
+        }
+        &_blocks {
+            display: flex;
+            justify-content: space-between;
+            &_block {
+                width: 107px;
+                height: 60px;
+                border: 1px solid #fff;
+                border-radius: 14px;
+                margin: 0 3.5px;
+                cursor: pointer;
+                &:first-child {
+                    margin-left: 0;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+                img {
+                    width: 50px;
+                    height: 50px;
+                    display: block;
+                    margin: 0 auto;
+                    margin-top: 3px;
+                }
+            }
+        }
+    }
+    &__image_left {
+        position: absolute;
+        top: -30%;
+        left: 0;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}

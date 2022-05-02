@@ -1,0 +1,38 @@
+.return {
+    padding-top: 210px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 50%;
+        &_image {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &_title {
+                font-family: 'Panton';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 36px;
+                color: #3C4852;
+                text-align: center;
+                margin-top: 31px;
+        }
+        &_descr {
+            font-family: 'Panton';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            color: #3C4852;
+            text-align: center;
+            width: 477px;
+            margin: 0 auto;
+            margin-top: 16px;
+        }
+    }
+}

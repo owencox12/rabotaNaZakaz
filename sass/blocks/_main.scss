@@ -1,0 +1,98 @@
+.main {
+    min-height: 820px;
+    background: #fff;
+    position: relative;
+    &__header {
+        padding-top: 68px;
+        &_wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &_burger {
+            display: none;
+            &_list {
+                display: none;
+            }
+        }
+        &_menu {
+            &_list {
+                display: flex;
+                align-items: center;
+                &_type {
+                    margin: 0 22.5px;
+                    a {
+                        font-family: 'Panton';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 22px;
+                        letter-spacing: 0.05em;
+                        color: #3C4852;
+                        text-decoration: none;
+                        outline: none;
+                        img {
+                            margin-right: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        &_image {
+            position: relative;
+            z-index: 1000;
+            &_bg {
+                position: absolute;
+                top: 5%;
+                left: -10%;
+                z-index: -1;
+            }
+        }
+    }
+    &__title {
+        font-family: 'Panton';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 115px;
+        color: #3C4852;
+        padding-top: 208px;
+    }
+    &__subtitle {
+        font-family: 'Panton';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43px;
+        color: #3C4852;
+        margin-top: 24px;
+    }
+    &__buttons {
+        display: flex;
+        &_button {
+            margin: 0 11.5px;
+            margin-top: 55px;
+            &:first-child {
+                margin-left: 0;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    &__image_top {
+        position: absolute;
+        top: 0;
+    }
+    &__image_bottom {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+}

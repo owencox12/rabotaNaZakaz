@@ -1,0 +1,106 @@
+.button {
+    border: none;
+    &--header {
+        width: 147px;
+        height: 58px;
+        background: #FFCC80;
+        border-radius: 10px;
+        border: none;
+        font-family: 'Panton';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+        color: #3C4852;
+        img {
+            margin-left: 10px;
+        }
+    }
+    &--main {
+        width: 289px;
+        height: 86px;
+        background: #FFCC80;
+        border-radius: 10px;
+        font-family: 'Panton';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #3C4852;
+    }
+    &--mainSecond {
+        border: 1px solid #FFCC80;
+        border-radius: 10px;
+        width: 249px;
+        height: 86px;
+        font-family: 'Panton';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #3C4852;
+
+    }
+    &--footer {
+        width: 220px;
+        height: 58px;
+        background: #FFCC80;
+        border-radius: 10px;
+        font-family: 'Panton';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+        color: #3C4852;
+    }
+    &--form {
+        width: 128px;
+        height: 60px;
+        background: #FFCC80;
+        border-radius: 10px;
+        border: none;
+        font-family: 'Panton';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #3C4852;
+    }
+    &--formSecond {
+        width: 164px;
+        height: 60px;
+        border: 1px solid #FFCC80;
+        font-family: 'Panton';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #3C4852;
+        background: none;
+    }
+    &--overlayReg {
+        width: 306px;
+        height: 60px;
+        background: #FFCC80;
+        border-radius: 10px;
+        font-family: 'Panton';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #3C4852;
+        margin-top: 34px;
+    }
+}

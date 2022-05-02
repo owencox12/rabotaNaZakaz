@@ -1,0 +1,49 @@
+.about {
+    min-height: 2400px;
+    background: #fff;
+    padding-top: 154px;
+    padding-bottom: 100px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        font-family: 'Panton';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 72px;
+        color: #3C4852;
+        text-align: center;
+    }
+    &__divider {
+        width: 74px;
+        height: 6px;
+        background: #FFCC80;
+        border-radius: 11px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 24px;
+    }
+    &__item {
+        width: 33%;
+        &_image {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &_descr {
+            text-align: center;
+            font-family: 'Panton';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            color: #3C4852;
+            span {
+                color: gray;
+            }
+        }
+    }
+}
